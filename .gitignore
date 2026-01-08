@@ -1,0 +1,27 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.vscode/
+
+# PHP dependency dirs (if you add Composer later)
+/vendor/
+
+# Logs / caches
+*.log
+
+# Local / env files
+.env
+.env.*
+
+# Database dumps / exports (optional)
+# Comment out the next line if you want libraryms.sql tracked
+# *.sql
+
+# Uploads (if you add upload folders later)
+uploads/
+
+# Node (if you add tooling later)
+node_modules/

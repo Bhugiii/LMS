@@ -1,0 +1,58 @@
+.pen {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black; 
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.button {
+    background-color: rgb(49, 9, 210);
+    color:rgb(221, 227, 225);
+    border:1px solid rgb(49, 9, 210);
+    width:150px;
+    text-align: center;
+    border-radius:20px;
+    padding: 10px 10px;
+    margin: 10px;
+    text-decoration: none;
+    float: right;
+    margin-right: 150px;;
+} 
+#Addbooks {
+    margin-left: 500px; 
+}
+.button:hover {
+    background-color: rgb(80, 217, 225);
+}
